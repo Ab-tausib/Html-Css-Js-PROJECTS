@@ -1,0 +1,31 @@
+    h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  /* posts starts here  */
+  .posts {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .my-card {
+    display: flex;
+    background-color: rgb(215, 111, 92);
+    color: white;
+    margin: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    transition: all 0.4s;
+  }
+  
+  .my-card:hover {
+   background-color: white;
+   color: rgb(215, 111, 92);
+  }
+  /* posts ends here  */
+
