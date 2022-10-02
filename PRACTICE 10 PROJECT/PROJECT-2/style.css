@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: antiquewhite;
+    
+}
+.card h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.buttons button{
+    margin-top: 70px;
+    width: 200px;
+    text-align: center;
+    margin-left:180px ;
+    border: 1px double gray;
+    border-radius: 8px;
+    background-color: aquamarine;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: #1df4ac;
+}
